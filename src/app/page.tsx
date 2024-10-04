@@ -1,3 +1,6 @@
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+
 export default function Home() {
   return (
     <div className="bg-gray-900 min-h-screen">
@@ -58,9 +61,9 @@ export default function Home() {
               generación de ingenieros y científicos, contribuyendo al avance de
               la sociedad a través de la educación y el desarrollo tecnológico.
             </p>
-            <button className="bg-yellow-400 text-gray-900 hover:bg-yellow-500">
+            <Button className="bg-yellow-400 text-gray-900 hover:bg-yellow-500">
               Más Información
-            </button>
+            </Button>
           </div>
           <div className="relative">
             <img
@@ -112,10 +115,10 @@ export default function Home() {
                 Suscríbete para recibir noticias y actualizaciones.
               </p>
               <div className="flex">
-                <input className="mr-2" placeholder="Tu email" type="email" />
-                <button className="bg-yellow-400 text-gray-900 hover:bg-yellow-500">
+                <Input className="mr-2" placeholder="Tu email" type="email" />
+                <Button className="bg-yellow-400 text-gray-900 hover:bg-yellow-500">
                   Suscribir
-                </button>
+                </Button>
               </div>
             </div>
           </div>
@@ -130,5 +133,7 @@ export default function Home() {
     </div>
   );
 }
+
+export const dynamic = "force-static";
 
 export const runtime = "edge";
