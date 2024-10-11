@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer/page";
+import { Header } from "@/components/Header/Header";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -24,11 +26,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-900 min-h-screen dark`}
       >
-        {children}
+        <Header />
+        <div className="px-4">{children}</div>
+        <Footer />
       </body>
     </html>
   );
