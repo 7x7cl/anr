@@ -11,10 +11,11 @@ const staffMembers = [
       "Tino es un pingüino curioso y aventurero, siempre dispuesto a descubrir nuevas tecnologías y aprender cosas nuevas. En su comunidad, es conocido por su espíritu explorador y su habilidad para resolver problemas con ingenio y creatividad. Aunque no es un experto programador, Tino aporta frescura e ideas innovadoras a cualquier equipo en el que participe.",
   },
   {
-    name: "Carlos Rodríguez",
-    role: "Director de Programas",
-    image: "/placeholder.svg?height=100&width=100",
-    description: "Supervisa todos los programas y proyectos de la fundación.",
+    name: "Crococode",
+    role: "Arquitecto de Sistemas",
+    image: "/staff/crococode.webp",
+    description:
+      "Crococode es un cocodrilo meticuloso y eficiente, conocido por su habilidad para crear estructuras de código robustas y escalables. En RoboGators Inc., se encarga de diseñar la arquitectura de software para robots avanzados, asegurándose de que cada línea de código sea tan sólida como su mordida. Con sus gafas y auriculares siempre listos, Crococode lleva la programación a otro nivel con su precisión y atención al detalle.",
   },
 ];
 
